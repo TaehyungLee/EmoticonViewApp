@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		C11CDFA82900E78000940210 /* EmoticonViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CDFA72900E78000940210 /* EmoticonViewAppApp.swift */; };
-		C11CDFAA2900E78000940210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CDFA92900E78000940210 /* ContentView.swift */; };
 		C11CDFAC2900E78100940210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11CDFAB2900E78100940210 /* Assets.xcassets */; };
 		C11CDFAF2900E78100940210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11CDFAE2900E78100940210 /* Preview Assets.xcassets */; };
+		C11CDFB62900E7C200940210 /* emoticon.json in Resources */ = {isa = PBXBuildFile; fileRef = C11CDFB52900E7C200940210 /* emoticon.json */; };
+		C11CDFB82900E7EE00940210 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CDFB72900E7EE00940210 /* MainView.swift */; };
+		C11CDFBA2900E86D00940210 /* EmoticonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CDFB92900E86D00940210 /* EmoticonModel.swift */; };
+		C11CDFBC2900EAE500940210 /* EmoticonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CDFBB2900EAE500940210 /* EmoticonViewModel.swift */; };
+		C11CDFBE2900EB1F00940210 /* EmoticonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CDFBD2900EB1F00940210 /* EmoticonView.swift */; };
+		C11CDFC0290128E800940210 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11CDFBF290128E800940210 /* EmojiView.swift */; };
+		C11CDFC32901319900940210 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C11CDFC22901319900940210 /* SDWebImageSwiftUI */; };
+		C1227BB829061DF4004D00E8 /* UIScrollViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1227BB729061DF4004D00E8 /* UIScrollViewWrapper.swift */; };
+		C1227BBA290628CA004D00E8 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1227BB9290628CA004D00E8 /* Define.swift */; };
+		C1227BBC29062C50004D00E8 /* emoticon_detail.json in Resources */ = {isa = PBXBuildFile; fileRef = C1227BBB29062C50004D00E8 /* emoticon_detail.json */; };
+		C195AF182907ECDD00C58BC7 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C195AF172907ECDD00C58BC7 /* WorkoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C11CDFA42900E78000940210 /* EmoticonViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmoticonViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11CDFA72900E78000940210 /* EmoticonViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonViewAppApp.swift; sourceTree = "<group>"; };
-		C11CDFA92900E78000940210 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C11CDFAB2900E78100940210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C11CDFAE2900E78100940210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C11CDFB52900E7C200940210 /* emoticon.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emoticon.json; sourceTree = "<group>"; };
+		C11CDFB72900E7EE00940210 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C11CDFB92900E86D00940210 /* EmoticonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonModel.swift; sourceTree = "<group>"; };
+		C11CDFBB2900EAE500940210 /* EmoticonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonViewModel.swift; sourceTree = "<group>"; };
+		C11CDFBD2900EB1F00940210 /* EmoticonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmoticonView.swift; sourceTree = "<group>"; };
+		C11CDFBF290128E800940210 /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		C1227BB729061DF4004D00E8 /* UIScrollViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollViewWrapper.swift; sourceTree = "<group>"; };
+		C1227BB9290628CA004D00E8 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		C1227BBB29062C50004D00E8 /* emoticon_detail.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = emoticon_detail.json; sourceTree = "<group>"; };
+		C1227BBD29062E09004D00E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C195AF172907ECDD00C58BC7 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11CDFC32901319900940210 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +72,18 @@
 		C11CDFA62900E78000940210 /* EmoticonViewApp */ = {
 			isa = PBXGroup;
 			children = (
+				C1227BBD29062E09004D00E8 /* Info.plist */,
 				C11CDFA72900E78000940210 /* EmoticonViewAppApp.swift */,
-				C11CDFA92900E78000940210 /* ContentView.swift */,
+				C11CDFB72900E7EE00940210 /* MainView.swift */,
+				C11CDFBF290128E800940210 /* EmojiView.swift */,
+				C11CDFBD2900EB1F00940210 /* EmoticonView.swift */,
+				C195AF172907ECDD00C58BC7 /* WorkoutView.swift */,
+				C11CDFB92900E86D00940210 /* EmoticonModel.swift */,
+				C11CDFBB2900EAE500940210 /* EmoticonViewModel.swift */,
+				C1227BB729061DF4004D00E8 /* UIScrollViewWrapper.swift */,
+				C1227BB9290628CA004D00E8 /* Define.swift */,
+				C11CDFB52900E7C200940210 /* emoticon.json */,
+				C1227BBB29062C50004D00E8 /* emoticon_detail.json */,
 				C11CDFAB2900E78100940210 /* Assets.xcassets */,
 				C11CDFAD2900E78100940210 /* Preview Content */,
 			);
@@ -83,6 +114,9 @@
 			dependencies = (
 			);
 			name = EmoticonViewApp;
+			packageProductDependencies = (
+				C11CDFC22901319900940210 /* SDWebImageSwiftUI */,
+			);
 			productName = EmoticonViewApp;
 			productReference = C11CDFA42900E78000940210 /* EmoticonViewApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +145,9 @@
 				Base,
 			);
 			mainGroup = C11CDF9B2900E78000940210;
+			packageReferences = (
+				C11CDFC12901319900940210 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = C11CDFA52900E78000940210 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +162,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1227BBC29062C50004D00E8 /* emoticon_detail.json in Resources */,
+				C11CDFB62900E7C200940210 /* emoticon.json in Resources */,
 				C11CDFAF2900E78100940210 /* Preview Assets.xcassets in Resources */,
 				C11CDFAC2900E78100940210 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11CDFAA2900E78000940210 /* ContentView.swift in Sources */,
+				C11CDFBC2900EAE500940210 /* EmoticonViewModel.swift in Sources */,
+				C1227BB829061DF4004D00E8 /* UIScrollViewWrapper.swift in Sources */,
+				C1227BBA290628CA004D00E8 /* Define.swift in Sources */,
+				C195AF182907ECDD00C58BC7 /* WorkoutView.swift in Sources */,
+				C11CDFBA2900E86D00940210 /* EmoticonModel.swift in Sources */,
+				C11CDFB82900E7EE00940210 /* MainView.swift in Sources */,
+				C11CDFBE2900EB1F00940210 /* EmoticonView.swift in Sources */,
 				C11CDFA82900E78000940210 /* EmoticonViewAppApp.swift in Sources */,
+				C11CDFC0290128E800940210 /* EmojiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,16 +310,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmoticonViewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmoticonViewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,6 +330,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thlee.EmoticonViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,16 +342,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EmoticonViewApp/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EmoticonViewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +362,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thlee.EmoticonViewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,6 +391,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C11CDFC12901319900940210 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C11CDFC22901319900940210 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C11CDFC12901319900940210 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C11CDF9C2900E78000940210 /* Project object */;
 }
